@@ -1,0 +1,33 @@
+:root {
+    --fonte-main: 'Roboto', sans-serif;
+    --cor-branco: #faf6f6;
+    --cor-clara: #ace2cf;
+    --cor-cinza: rgb(227, 227, 227);
+}
+
+* {
+    font-family: var(--fonte-main);
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-cinza);
+}
+
+.content {
+    padding: 1rem;
+    background-color: var(--cor-branco);
+    height: 100vh;
+    width: 100vw;
+}
+
+@media screen and (min-width: 992px){
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+
